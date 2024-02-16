@@ -3,5 +3,12 @@ function clearScreen(){
 }
 function display(value){
     document.getElementById("result").value +=value
-    
+
+}
+function calculate(){
+    try{
+        document.getElementById("result").value=eval(document.getElementById("result").value)
+    }
+    catch(err){
+    alert("erorr")}
 }
