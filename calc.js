@@ -10,5 +10,5 @@ function calculate(){
         document.getElementById("result").value=eval(document.getElementById("result").value)
     }
     catch(err){
-    alert("erorr")}
+    alert("erorr")} 
 }
