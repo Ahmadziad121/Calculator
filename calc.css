@@ -4,7 +4,7 @@
     height: 380px;
     width: 400px;
     margin: auto;
-    background-color: gray;
+    background-color: white;
     
 }
 
@@ -36,4 +36,13 @@ input[type=button] {
 input:active[type=button] {
     background: #e5e5e5;
     
+}
+#eq{
+    background-color: #0d6efd;
+}
+#op{
+    background-color:#dadce0;
+}
+#num{
+    background-color: ;
 }
