@@ -38,16 +38,17 @@ function log(){
 
 }
 function pow(){
-    document.getElementById("result").value=Math.pow(document.getElementById("result").value,document.getElementById("result").value)
+    document.getElementById("result").value=Math.pow(document.getElementById("result").value,2)
 
 }
 function Exp(){
     document.getElementById("result").value=Math.exp(document.getElementById("result").value)
 
 }
-function Ans(){
-    document.getElementById("result").value +=  document.getElementById("result").value
-    document.getElementById("result").value= eval(document.getElementById("result").value).value
+function rnd(){
+   
+    document.getElementById("result").value=Math.round(document.getElementById("result").value)
+
 
 }
 
@@ -66,10 +67,10 @@ function ln(){
 
 }
 function deg_to_rad(){
-    document.getElementById("result").value=Math.PI/180(document.getElementById("result").value)
+    document.getElementById("result").value=(3.14/180)*(document.getElementById("result").value)
 }
 function rad_to_deg(){
-    document.getElementById("result").value=Math.PI/180(document.getElementById("result").value)
+    document.getElementById("result").value=(180/3.14)*(document.getElementById("result").value)
 }
 function x(){
     var i,num,f
