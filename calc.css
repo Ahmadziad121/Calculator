@@ -46,6 +46,9 @@ input:active[type=button] {
     background-color:#4285f4;
     width: 50px;
 }
+#eq:hover{
+    background-color: darkblue;
+}
 #op{
     background-color:#dadce0;
     font-weight: bold;
@@ -68,4 +71,8 @@ input:active[type=button] {
 
 #AC{
     background-color: greenyellow;
+}
+#AC:hover{
+    background-color:  #548806;
+
 }

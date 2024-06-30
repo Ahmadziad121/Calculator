@@ -1,4 +1,4 @@
-x=getElementById("result").value
+
 function clearScreen(){
     document.getElementById("result").value=""
 }
